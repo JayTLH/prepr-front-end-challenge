@@ -1,19 +1,17 @@
 @import '../../styles/base.scss';
 
 .display-card {
-  // background: $grey-2;
   border-radius: 5px;
   max-width: 330px;
-  margin: 0 0 20px 0;
+  margin: 0 0 25px 0;
 
   &__img {
     width: 100%;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
   }
 
   &__info {
     padding: 10px;
+    height: 320px;
   }
 
   &__title {
@@ -24,8 +22,19 @@
 
   &__category {
     font-weight: 400;
-    color: $grey-1;
     margin: 10px 0;
+
+    &--challenge {
+      color: $blue-3;
+    }
+
+    &--lab {
+      color: $orange-3;
+    }
+
+    &--project {
+      color: $purple-1;
+    }
   }
 
   &__description {
@@ -33,4 +42,10 @@
     color: $white;
     margin: 0;
   }
+}
+
+.card-divider {
+  width: 100%;
+  height: 1px;
+  background: $grey-1;
 }
