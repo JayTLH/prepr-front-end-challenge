@@ -1,0 +1,36 @@
+@import '../../styles/base.scss';
+
+.display-card {
+  // background: $grey-2;
+  border-radius: 5px;
+  max-width: 330px;
+  margin: 0 0 20px 0;
+
+  &__img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  &__info {
+    padding: 10px;
+  }
+
+  &__title {
+    font-weight: 500;
+    color: $white;
+    margin: 0;
+  }
+
+  &__category {
+    font-weight: 400;
+    color: $grey-1;
+    margin: 10px 0;
+  }
+
+  &__description {
+    font-weight: 300;
+    color: $white;
+    margin: 0;
+  }
+}

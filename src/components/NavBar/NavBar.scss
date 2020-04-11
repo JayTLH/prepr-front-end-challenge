@@ -1,0 +1,49 @@
+@import '../../styles/base.scss';
+
+.navbar {
+  width: 100%;
+  padding: 10px;
+
+  background: $grey-3;
+
+  position: fixed;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__profile {
+    height: 30px;
+  }
+
+  &__logo {
+    height: 40px;
+  }
+
+  &__menu {
+    height: 20px;
+  }
+
+  &__search {
+    font-family: inherit;
+    width: 100%;
+    height: 35px;
+    margin: 10px 0 2px 0;
+    background: $grey-2;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+
+    &::placeholder {
+      color: $grey-1;
+    }
+  }
+} 
