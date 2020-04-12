@@ -3,15 +3,16 @@
 .navbar {
   width: 100%;
   padding: 10px;
-
   background: $grey-3;
-
   position: fixed;
   top: 0;
-
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @include tablet-view() {
+    padding: 10px 24px;
+  }
 
   &__header {
     width: 100%;
@@ -22,6 +23,10 @@
 
   &__profile {
     height: 30px;
+
+    @include laptop-view() {
+      display: none;
+    }
   }
 
   &__logo {
@@ -42,6 +47,10 @@
     border: none;
     border-radius: 5px;
     text-align: center;
+
+    @include laptop-view() {
+      display: none;
+    }
 
     &::placeholder {
       color: $grey-1;

@@ -16,11 +16,13 @@ export default class DisplayCard extends Component {
 
     return (
       <div className="display-card">
-        <img className="display-card__img" src={img} alt="display-card" />
-        <div className="display-card__info">
-          <h3 className="display-card__title">{title}</h3>
-          <h4 className={categoryClass}>{category}</h4>
-          <p className="display-card__description">{description}</p>
+        <div className="display-card__content">
+          <img className="display-card__img" src={img} alt="display-card" />
+          <div className="display-card__info">
+            <h3 className="display-card__title">{title}</h3>
+            <h4 className={categoryClass}>{category}</h4>
+            <p className="display-card__description">{description}</p>
+          </div>
         </div>
         <div className="card-divider" />
       </div>

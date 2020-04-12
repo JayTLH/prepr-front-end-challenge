@@ -14,7 +14,7 @@ export default class NavBar extends Component {
           <img className="navbar__logo" src={logo} alt="prepr" />
           <img className="navbar__menu" src={burgerMenu} alt="menu" />
         </div>
-        <input className="navbar__search" type="text" placeholder="Search Challenges, Labs" />
+        <input className="navbar__search" type="text" placeholder="Search Challenges, Labs, Projects" />
       </div>
     )
   }
