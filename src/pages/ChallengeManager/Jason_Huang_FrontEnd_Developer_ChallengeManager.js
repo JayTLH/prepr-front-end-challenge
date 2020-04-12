@@ -28,7 +28,7 @@ export default class ChallengeManager extends Component {
   }
 
   render() {
-    const { img, title, category, startDate, endDate, comments } = this.findChallenge()
+    const { img, title, category, startDate, endDate } = this.findChallenge()
     const toggle = this.state.toggle
 
     return (
