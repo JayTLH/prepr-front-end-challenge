@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { DataContext } from '../../data/dataContext';
-import './ChallengeOverview.scss';
+import { DataContext } from '../../data/Jason_Huang_FrontEnd_Developer_dataContext';
+import './Jason_Huang_FrontEnd_Developer_ChallengeOverview.scss';
 
 export default class ChallengeOverview extends Component {
   static contextType = DataContext;

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './ChallengeDiscussion.scss';
+import './Jason_Huang_FrontEnd_Developer_ChallengeDiscussion.scss';
 
-import user from '../../assets/profile.png';
-import send from '../../assets/send.png';
+import user from '../../assets/Jason_Huang_FrontEnd_Developer_profile.png';
+import send from '../../assets/Jason_Huang_FrontEnd_Developer_send.png';
 
 export default class ChallengeDiscussion extends Component {
   state = {

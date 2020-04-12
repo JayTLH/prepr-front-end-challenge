@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { DataProvider } from './data/dataContext';
+import { DataProvider } from './data/Jason_Huang_FrontEnd_Developer_dataContext';
 
-import './index.scss';
-import NavBar from './components/NavBar/NavBar';
-import Main from './pages/Main/Main';
-import ChallengeManager from './pages/ChallengeManager/ChallengeManager';
+import './Jason_Huang_FrontEnd_Developer_index.scss';
+import NavBar from './components/NavBar/Jason_Huang_FrontEnd_Developer_NavBar';
+import Main from './pages/Main/Jason_Huang_FrontEnd_Developer_Main';
+import ChallengeManager from './pages/ChallengeManager/Jason_Huang_FrontEnd_Developer_ChallengeManager';
 
 ReactDOM.render(
   <DataProvider>

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { DataContext } from '../../data/dataContext';
-import './ChallengeManager.scss';
+import { DataContext } from '../../data/Jason_Huang_FrontEnd_Developer_dataContext';
+import './Jason_Huang_FrontEnd_Developer_ChallengeManager.scss';
 
-import calendar from '../../assets/calendar.png';
+import calendar from '../../assets/Jason_Huang_FrontEnd_Developer_calendar.png';
 
 // components
-import ChallengeOverview from '../../components/ChallengeOverview/ChallengeOverview';
-import ChallengeDiscussion from '../../components/ChallengeDiscussion/ChallengeDiscussion'
+import ChallengeOverview from '../../components/ChallengeOverview/Jason_Huang_FrontEnd_Developer_ChallengeOverview';
+import ChallengeDiscussion from '../../components/ChallengeDiscussion/Jason_Huang_FrontEnd_Developer_ChallengeDiscussion'
 
 export default class ChallengeManager extends Component {
   static contextType = DataContext;

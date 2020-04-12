@@ -1,4 +1,4 @@
-import image from '../assets/placeholder.jpg'
+import image from '../assets/Jason_Huang_FrontEnd_Developer_placeholder.jpg'
 
 let projects = [
   {

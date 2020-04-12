@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import './NavBar.scss'
+import './Jason_Huang_FrontEnd_Developer_NavBar.scss'
 
-import profile from '../../assets/profile.png'
-import logo from '../../assets/logo.png'
-import burgerMenu from '../../assets/burger-menu.png'
+import profile from '../../assets/Jason_Huang_FrontEnd_Developer_profile.png'
+import logo from '../../assets/Jason_Huang_FrontEnd_Developer_logo.png'
+import burgerMenu from '../../assets/Jason_Huang_FrontEnd_Developer_burger-menu.png'
 
 export default class NavBar extends Component {
   render() {

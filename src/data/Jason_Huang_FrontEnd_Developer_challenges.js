@@ -1,5 +1,5 @@
-import image from '../assets/placeholder.jpg';
-import user from '../assets/profile.png';
+import image from '../assets/Jason_Huang_FrontEnd_Developer_placeholder.jpg';
+import user from '../assets/Jason_Huang_FrontEnd_Developer_profile.png';
 
 let challenges = [
   {
@@ -28,6 +28,11 @@ let challenges = [
         name: "commenter 3",
         date: "1 day ago",
         comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis."
+      }
+    ],
+    submissions: [
+      {
+        
       }
     ]
   },

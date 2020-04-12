@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './DisplayCard.scss';
+import './Jason_Huang_FrontEnd_Developer_DisplayCard.scss';
 
 export default class DisplayCard extends Component {
   render() {

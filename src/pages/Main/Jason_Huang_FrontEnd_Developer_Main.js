@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { DataContext } from '../../data/dataContext';
-import './Main.scss';
+import { DataContext } from '../../data/Jason_Huang_FrontEnd_Developer_dataContext';
+import './Jason_Huang_FrontEnd_Developer_Main.scss';
 
 // components
-import DisplayCard from '../../components/DisplayCard/DisplayCard'
+import DisplayCard from '../../components/DisplayCard/Jason_Huang_FrontEnd_Developer_DisplayCard'
 
 export default class Main extends Component {
   static contextType = DataContext;
