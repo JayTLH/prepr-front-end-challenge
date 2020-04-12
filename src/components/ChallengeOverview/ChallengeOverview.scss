@@ -1,0 +1,45 @@
+@import "../../styles/base.scss";
+
+.challenge-overview {
+  margin: 20px 0 0 0;
+
+  &__title {
+    font-weight: 400;
+    color: $grey-1;
+    margin: 0 0 16px 0;
+  }
+
+  &__info {
+    display: flex;
+    margin: 0 0 20px 0;
+  }
+
+  &__requirements {
+    width: 50%;
+    padding: 0 20px 0 0;
+  }
+
+  &__label {
+    font-weight: 300;
+    color: $green-2;
+    margin: 0;
+  }
+
+  &__description {
+    color: $grey-1;
+  }
+
+  &__dates {
+    width: 50%;
+    padding: 0 20px 0 0;
+  }
+
+  &__due {
+    color: $grey-1;
+    margin: 0;
+
+    &--green {
+      color: $green-2;
+    }
+  }
+}

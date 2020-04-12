@@ -1,0 +1,94 @@
+@import "../../styles/base.scss";
+
+.challenge-discussion {
+  margin: 20px 0 0 0;
+
+  &__title {
+    font-weight: 400;
+    color: $grey-1;
+    margin: 0 0 16px 0;
+  }
+
+  &__form {
+    width: 600px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    background: $grey-2;
+    border-radius: 5px;
+  }
+
+  &__input {
+    font-family: inherit;
+    color: $grey-1;
+    background: none;
+    border: none;
+    border-right: 2px solid $grey-3;;
+    resize: none;
+    padding: 10px;
+    height: 40px;
+    width: 550px;
+    margin: 0 3px 0 0;
+  }
+
+  &__button {
+    background: none;
+    border: none;
+    position: relative;
+    top: 2px;
+    left: 4px;
+  }
+
+  &__send {
+    width: 25px;
+    height: 25px;
+  }
+
+  &__comments {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__comment {
+    display: flex;
+  }
+
+  &__user {
+    width: 45px;
+    height: 45px;
+  }
+
+  &__main {
+    padding: 0 0 0 15px;
+    width: 540px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__name {
+    margin: 0;
+    color: $green-2;
+  }
+
+  &__date {
+    margin: 0;
+    color: $grey-1;
+  }
+
+  &__content {
+    margin: 10px 0;
+    color: $grey-1;
+    word-wrap: break-word;
+  }
+}
+
+.comment-divider {
+  width: 100%;
+  height: 1px;
+  background: $grey-1;
+  margin: 10px 0 25px 0;
+}
