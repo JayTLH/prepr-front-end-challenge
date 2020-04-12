@@ -81,12 +81,12 @@
 
     &:hover {
       background-color: $grey-4;
-      color: $white;
+      color: $green-2;
     }
 
     &--selected {
       background: $grey-2;
-      color: $green-1;
+      color: $green-2;
     }
   }
 }

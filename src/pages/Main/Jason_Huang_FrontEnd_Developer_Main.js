@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { motion, AnimatePresence } from "framer-motion"
+import { motion } from "framer-motion"
 import { DataContext } from '../../data/Jason_Huang_FrontEnd_Developer_dataContext';
 import './Jason_Huang_FrontEnd_Developer_Main.scss';
 
@@ -8,34 +8,28 @@ import './Jason_Huang_FrontEnd_Developer_Main.scss';
 import DisplayCard from '../../components/DisplayCard/Jason_Huang_FrontEnd_Developer_DisplayCard'
 
 const FadeIn = (props) => {
-  console.log(props)
   return (
-    <AnimatePresence>
-      <motion.div
-        className="fade-in"
-        key={props.id}
+    <motion.div
+      key={props.id}
 
-        initial={{
-          opacity: 0,
-          x: 200
-        }}
+      initial={{
+        opacity: 0,
+        x: 200
+      }}
 
-        animate={{
-          opacity: 1,
-          x: 0,
-        }}
+      animate={{
+        opacity: 1,
+        x: 0,
+      }}
 
-        transition={{
-          ease: "easeOut",
-          duration: props.time ? props.time + 1 : 1,
-          delay: props.time ? 1 : 0
-        }}
-
-        exit={{ opacity: 0 }}
-      >
-        {props.children}
-      </motion.div>
-    </AnimatePresence>
+      transition={{
+        ease: "easeOut",
+        duration: 1,
+        delay: props.time ? 0.8 + props.time / 10 : 0
+      }}
+    >
+      {props.children}
+    </motion.div>
   )
 }
 
