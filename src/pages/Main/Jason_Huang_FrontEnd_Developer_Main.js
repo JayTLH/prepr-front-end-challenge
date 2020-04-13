@@ -35,7 +35,7 @@ const FadeIn = (props) => {
 
 export default class Main extends Component {
   static contextType = DataContext;
-
+  
   render() {
     let path = this.props.match.path
     let data = null
@@ -49,7 +49,7 @@ export default class Main extends Component {
 
     return (
       <div className="main">
-        <div className="main__side-toggle">
+        <div className="main__side-toggle" ref={this.sideToggle}>
           <Link to="/">
             {path === "/" ?
               <button className="main__side-toggle-btn main__side-toggle-btn--selected">Challenges</button> :

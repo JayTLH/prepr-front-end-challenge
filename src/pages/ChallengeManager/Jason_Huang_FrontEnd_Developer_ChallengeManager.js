@@ -71,7 +71,7 @@ export default class ChallengeManager extends Component {
                 <h2 className="challenge__title">{title}</h2>
                 <div className="challenge__calendar">
                   <img className="challenge__calendar-icon" src={calendar} alt="due dates" />
-                  <p className="challenge__dates">{startDate} - {endDate}</p>
+                  <p className="challenge__dates">{startDate}  to  {endDate}</p>
                 </div>
                 <div className="challenge__toggle">
                   {toggle === "overview" ?
