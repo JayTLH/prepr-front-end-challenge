@@ -27,8 +27,20 @@
     border-top-right-radius: 5px;
   }
 
-  &__title {
+  &__info {
+    padding: 10px;
+  }
 
+  &__card-title {
+    font-weight: 400;
+    color: $green-2;
+    margin: 0 0 16px 0;
+  }
+
+  &__description {
+    font-weight: 300;
+    color: $grey-1;
+    margin: 0 0 16px 0;
   }
 
   &__user {

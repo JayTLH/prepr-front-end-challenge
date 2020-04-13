@@ -15,9 +15,11 @@ export default class ChallengeSubmission extends Component {
             return (
               <div className="challenge-submission__card" key={item.title + index}>
                 <img className="challenge-submission__img" src={item.img} alt="submission" />
-                <h4 className="challenge-submission__title">{item.title}</h4>
-                <p className="challenge-submission__description">{item.description}</p>
-                <img className="challenge-submission__user" src={item.user} alt="submission" />
+                <div className="challenge-submission__info">
+                  <h4 className="challenge-submission__card-title">{item.title}</h4>
+                  <p className="challenge-submission__description">{item.description}</p>
+                  <img className="challenge-submission__user" src={item.user} alt="submission" />
+                </div>
               </div>
             )
           })}
