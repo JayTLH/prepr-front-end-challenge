@@ -18,7 +18,6 @@ ReactDOM.render(
         <Route path="/projects" exact component={Main} />
         <Route path="/challengeManager/:id" exact component={ChallengeManager} />
       </Switch>
-
     </BrowserRouter>
   </DataProvider>,
   document.getElementById('root')

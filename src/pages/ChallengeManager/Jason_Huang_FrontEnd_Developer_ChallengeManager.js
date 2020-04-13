@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { motion, AnimatePresence } from "framer-motion"
+import { motion } from "framer-motion"
 import { DataContext } from '../../data/Jason_Huang_FrontEnd_Developer_dataContext';
 import './Jason_Huang_FrontEnd_Developer_ChallengeManager.scss';
 
@@ -13,28 +13,24 @@ import ChallengeMembers from '../../components/ChallengeMembers/Jason_Huang_Fron
 
 const FadeIn = (props) => {
   return (
-    <AnimatePresence>
-      <motion.div
-        key={props.id}
+    <motion.div
+      key={props.id}
 
-        initial={{
-          opacity: 0,
-        }}
+      initial={{
+        opacity: 0,
+      }}
 
-        animate={{
-          opacity: 1,
-        }}
+      animate={{
+        opacity: 1,
+      }}
 
-        transition={{
-          ease: "easeOut",
-          duration: 1,
-        }}
-
-        exit={{ opacity: 0 }}
-      >
-        {props.children}
-      </motion.div>
-    </AnimatePresence>
+      transition={{
+        ease: "easeOut",
+        duration: 1,
+      }}
+    >
+      {props.children}
+    </motion.div>
   )
 }
 
