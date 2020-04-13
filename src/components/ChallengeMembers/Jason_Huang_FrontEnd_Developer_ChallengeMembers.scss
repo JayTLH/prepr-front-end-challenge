@@ -1,0 +1,37 @@
+@import "../../styles/Jason_Huang_FrontEnd_Developer_base.scss";
+
+.challenge-members {
+  width: 960px;
+  margin: 0 auto 30px auto;
+
+  &__title {
+    font-weight: 400;
+    color: $grey-1;
+    margin: 0 0 16px 0;
+  }
+
+  &__card {
+    width: 300px;
+    background: $grey-3;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin: 0 0 10px 0;
+  }
+
+  &__img {
+    width: 35px;
+    height: 35px;
+    margin: 0 20px 0 0;
+  }
+
+  &__name {
+    margin: 0;
+    color: $grey-1;
+
+    &--admin {
+      color: $green-2;
+    }
+  }
+}

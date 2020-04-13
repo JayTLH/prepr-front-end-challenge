@@ -7,7 +7,9 @@ import calendar from '../../assets/Jason_Huang_FrontEnd_Developer_calendar.png';
 
 // components
 import ChallengeOverview from '../../components/ChallengeOverview/Jason_Huang_FrontEnd_Developer_ChallengeOverview';
-import ChallengeDiscussion from '../../components/ChallengeDiscussion/Jason_Huang_FrontEnd_Developer_ChallengeDiscussion'
+import ChallengeDiscussion from '../../components/ChallengeDiscussion/Jason_Huang_FrontEnd_Developer_ChallengeDiscussion';
+import ChallengeSubmission from '../../components/ChallengeSubmission/Jason_Huang_FrontEnd_Developer_ChallengeSubmission';
+import ChallengeMembers from '../../components/ChallengeMembers/Jason_Huang_FrontEnd_Developer_ChallengeMembers';
 
 const FadeIn = (props) => {
   return (
@@ -102,6 +104,16 @@ export default class ChallengeManager extends Component {
           {this.state.toggle === "discussion" ?
             <FadeIn>
               <ChallengeDiscussion info={this.findChallenge()} />
+            </FadeIn> : null}
+
+          {this.state.toggle === "submissions" ?
+            <FadeIn>
+              <ChallengeSubmission info={this.findChallenge()} />
+            </FadeIn> : null}
+
+          {this.state.toggle === "members" ?
+            <FadeIn>
+              <ChallengeMembers info={this.findChallenge()} />
             </FadeIn> : null}
         </div>
       </FadeIn>

@@ -32,9 +32,57 @@ let challenges = [
     ],
     submissions: [
       {
-        
-      }
-    ]
+        img: image,
+        user: user,
+        name: "submitter 1",
+        title: "Submission 1",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+      {
+        img: image,
+        user: user,
+        name: "submitter 2",
+        title: "Submission 2",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+      {
+        img: image,
+        user: user,
+        name: "submitter 3",
+        title: "Submission 3",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+    ],
+    members: {
+      admins: [
+        {
+          img: user,
+          name: "Admin 1"
+        },
+        {
+          img: user,
+          name: "Admin 2"
+        }
+      ],
+      general: [
+        {
+          img: user,
+          name: "Member 1"
+        },
+        {
+          img: user,
+          name: "Member 2"
+        },
+        {
+          img: user,
+          name: "Member 3"
+        },
+        {
+          img: user,
+          name: "Member 4"
+        }
+      ]
+    }
   },
   {
     id: "EVAd-Nfdk3",
@@ -63,7 +111,60 @@ let challenges = [
         date: "1 day ago",
         comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis."
       }
-    ]
+    ],
+    submissions: [
+      {
+        img: image,
+        user: user,
+        name: "submitter 1",
+        title: "Submission 1",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+      {
+        img: image,
+        user: user,
+        name: "submitter 2",
+        title: "Submission 2",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+      {
+        img: image,
+        user: user,
+        name: "submitter 3",
+        title: "Submission 3",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+    ],
+    members: {
+      admins: [
+        {
+          img: user,
+          name: "Admin 1"
+        },
+        {
+          img: user,
+          name: "Admin 2"
+        }
+      ],
+      general: [
+        {
+          img: user,
+          name: "Member 1"
+        },
+        {
+          img: user,
+          name: "Member 2"
+        },
+        {
+          img: user,
+          name: "Member 3"
+        },
+        {
+          img: user,
+          name: "Member 4"
+        }
+      ]
+    }
   },
   {
     id: "5MBRzpBC54",
@@ -92,7 +193,60 @@ let challenges = [
         date: "1 day ago",
         comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis."
       }
-    ]
+    ],
+    submissions: [
+      {
+        img: image,
+        user: user,
+        name: "submitter 1",
+        title: "Submission 1",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+      {
+        img: image,
+        user: user,
+        name: "submitter 2",
+        title: "Submission 2",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+      {
+        img: image,
+        user: user,
+        name: "submitter 3",
+        title: "Submission 3",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+    ],
+    members: {
+      admins: [
+        {
+          img: user,
+          name: "Admin 1"
+        },
+        {
+          img: user,
+          name: "Admin 2"
+        }
+      ],
+      general: [
+        {
+          img: user,
+          name: "Member 1"
+        },
+        {
+          img: user,
+          name: "Member 2"
+        },
+        {
+          img: user,
+          name: "Member 3"
+        },
+        {
+          img: user,
+          name: "Member 4"
+        }
+      ]
+    }
   },
   {
     id: "CFLKQekakQ",
@@ -121,7 +275,60 @@ let challenges = [
         date: "1 day ago",
         comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis."
       }
-    ]
+    ],
+    submissions: [
+      {
+        img: image,
+        user: user,
+        name: "submitter 1",
+        title: "Submission 1",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+      {
+        img: image,
+        user: user,
+        name: "submitter 2",
+        title: "Submission 2",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+      {
+        img: image,
+        user: user,
+        name: "submitter 3",
+        title: "Submission 3",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+    ],
+    members: {
+      admins: [
+        {
+          img: user,
+          name: "Admin 1"
+        },
+        {
+          img: user,
+          name: "Admin 2"
+        }
+      ],
+      general: [
+        {
+          img: user,
+          name: "Member 1"
+        },
+        {
+          img: user,
+          name: "Member 2"
+        },
+        {
+          img: user,
+          name: "Member 3"
+        },
+        {
+          img: user,
+          name: "Member 4"
+        }
+      ]
+    }
   },
   {
     id: "Mp1PBzue9O",
@@ -150,7 +357,60 @@ let challenges = [
         date: "1 day ago",
         comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis."
       }
-    ]
+    ],
+    submissions: [
+      {
+        img: image,
+        user: user,
+        name: "submitter 1",
+        title: "Submission 1",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+      {
+        img: image,
+        user: user,
+        name: "submitter 2",
+        title: "Submission 2",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+      {
+        img: image,
+        user: user,
+        name: "submitter 3",
+        title: "Submission 3",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+    ],
+    members: {
+      admins: [
+        {
+          img: user,
+          name: "Admin 1"
+        },
+        {
+          img: user,
+          name: "Admin 2"
+        }
+      ],
+      general: [
+        {
+          img: user,
+          name: "Member 1"
+        },
+        {
+          img: user,
+          name: "Member 2"
+        },
+        {
+          img: user,
+          name: "Member 3"
+        },
+        {
+          img: user,
+          name: "Member 4"
+        }
+      ]
+    }
   },
   {
     id: "cJvNtMxBuI",
@@ -179,7 +439,60 @@ let challenges = [
         date: "1 day ago",
         comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis."
       }
-    ]
+    ],
+    submissions: [
+      {
+        img: image,
+        user: user,
+        name: "submitter 1",
+        title: "Submission 1",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+      {
+        img: image,
+        user: user,
+        name: "submitter 2",
+        title: "Submission 2",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+      {
+        img: image,
+        user: user,
+        name: "submitter 3",
+        title: "Submission 3",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper nunc pulvinar magna pharetra, sed posuere ligula posuere. Morbi id mi quis justo consectetur consequat sed sed felis.",
+      },
+    ],
+    members: {
+      admins: [
+        {
+          img: user,
+          name: "Admin 1"
+        },
+        {
+          img: user,
+          name: "Admin 2"
+        }
+      ],
+      general: [
+        {
+          img: user,
+          name: "Member 1"
+        },
+        {
+          img: user,
+          name: "Member 2"
+        },
+        {
+          img: user,
+          name: "Member 3"
+        },
+        {
+          img: user,
+          name: "Member 4"
+        }
+      ]
+    }
   },
 ]
 
